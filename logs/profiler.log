@@ -1,0 +1,204 @@
+[2026-02-18 20:06:29.454] === PROFILER START | Sampling every 2s ===
+-----------------------------------------------------------
+-----------------------------------------------------------
+[2026-02-18 20:06:29.457] SAMPLE_START
+[2026-02-18 20:06:29.464] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:29.464] MEMORY | NonHeap Used: 2MB | Committed: 8MB
+[2026-02-18 20:06:29.465] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:29.465] MEMPOOL | Metaspace                 Used:   1250KB | Max: -1MB
+[2026-02-18 20:06:29.465] MEMPOOL | CodeHeap 'profiled nmethods' Used:    487KB | Max: 117MB
+[2026-02-18 20:06:29.465] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:29.465] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:29.465] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:29.465] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:29.465] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:     97KB | Max: 117MB
+[2026-02-18 20:06:29.466] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:29.466] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:29.466] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:29.466] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:29.467] CPU | Available Processors: 12 | System Load Average: 1.60
+[2026-02-18 20:06:29.467] CPU | Process CPU Usage: 0.0% | System CPU Usage: 0.0%
+[2026-02-18 20:06:29.467] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:29.468] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:31.463] SAMPLE_START
+[2026-02-18 20:06:31.464] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:31.465] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:31.465] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:31.465] MEMPOOL | Metaspace                 Used:   1255KB | Max: -1MB
+[2026-02-18 20:06:31.466] MEMPOOL | CodeHeap 'profiled nmethods' Used:    503KB | Max: 117MB
+[2026-02-18 20:06:31.466] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:31.466] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:31.466] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:31.467] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:31.467] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    107KB | Max: 117MB
+[2026-02-18 20:06:31.467] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:31.468] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:31.468] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:31.468] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:31.469] CPU | Available Processors: 12 | System Load Average: 1.60
+[2026-02-18 20:06:31.469] CPU | Process CPU Usage: 0.1% | System CPU Usage: 13.0%
+[2026-02-18 20:06:31.469] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:31.469] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:33.462] SAMPLE_START
+[2026-02-18 20:06:33.464] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:33.464] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:33.465] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:33.465] MEMPOOL | Metaspace                 Used:   1265KB | Max: -1MB
+[2026-02-18 20:06:33.466] MEMPOOL | CodeHeap 'profiled nmethods' Used:    526KB | Max: 117MB
+[2026-02-18 20:06:33.466] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:33.466] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:33.466] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:33.466] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:33.467] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    110KB | Max: 117MB
+[2026-02-18 20:06:33.467] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:33.467] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:33.467] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:33.468] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:33.468] CPU | Available Processors: 12 | System Load Average: 1.80
+[2026-02-18 20:06:33.469] CPU | Process CPU Usage: 0.1% | System CPU Usage: 20.5%
+[2026-02-18 20:06:33.469] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:33.469] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:35.462] SAMPLE_START
+[2026-02-18 20:06:35.463] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:35.464] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:35.464] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:35.465] MEMPOOL | Metaspace                 Used:   1271KB | Max: -1MB
+[2026-02-18 20:06:35.465] MEMPOOL | CodeHeap 'profiled nmethods' Used:    550KB | Max: 117MB
+[2026-02-18 20:06:35.465] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:35.466] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:35.466] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:35.466] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:35.466] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    114KB | Max: 117MB
+[2026-02-18 20:06:35.467] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:35.467] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:35.467] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:35.468] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:35.468] CPU | Available Processors: 12 | System Load Average: 1.80
+[2026-02-18 20:06:35.468] CPU | Process CPU Usage: 0.1% | System CPU Usage: 11.0%
+[2026-02-18 20:06:35.468] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:35.468] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:37.462] SAMPLE_START
+[2026-02-18 20:06:37.463] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:37.463] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:37.464] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:37.464] MEMPOOL | Metaspace                 Used:   1284KB | Max: -1MB
+[2026-02-18 20:06:37.465] MEMPOOL | CodeHeap 'profiled nmethods' Used:    579KB | Max: 117MB
+[2026-02-18 20:06:37.465] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:37.466] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:37.466] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:37.466] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:37.467] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    121KB | Max: 117MB
+[2026-02-18 20:06:37.467] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:37.467] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:37.468] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:37.468] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:37.468] CPU | Available Processors: 12 | System Load Average: 1.80
+[2026-02-18 20:06:37.469] CPU | Process CPU Usage: 0.1% | System CPU Usage: 12.6%
+[2026-02-18 20:06:37.469] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:37.469] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:39.462] SAMPLE_START
+[2026-02-18 20:06:39.463] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:39.463] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:39.464] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:39.464] MEMPOOL | Metaspace                 Used:   1303KB | Max: -1MB
+[2026-02-18 20:06:39.464] MEMPOOL | CodeHeap 'profiled nmethods' Used:    612KB | Max: 117MB
+[2026-02-18 20:06:39.465] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:39.465] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:39.465] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:39.466] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:39.466] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    121KB | Max: 117MB
+[2026-02-18 20:06:39.466] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:39.467] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:39.467] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:39.467] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:39.468] CPU | Available Processors: 12 | System Load Average: 2.13
+[2026-02-18 20:06:39.468] CPU | Process CPU Usage: 0.1% | System CPU Usage: 20.5%
+[2026-02-18 20:06:39.468] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:39.469] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:41.462] SAMPLE_START
+[2026-02-18 20:06:41.463] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:41.463] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:41.463] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:41.464] MEMPOOL | Metaspace                 Used:   1311KB | Max: -1MB
+[2026-02-18 20:06:41.464] MEMPOOL | CodeHeap 'profiled nmethods' Used:    635KB | Max: 117MB
+[2026-02-18 20:06:41.464] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:41.464] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:41.465] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:41.465] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:41.465] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    122KB | Max: 117MB
+[2026-02-18 20:06:41.465] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:41.465] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:41.466] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:41.466] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:41.467] CPU | Available Processors: 12 | System Load Average: 2.13
+[2026-02-18 20:06:41.467] CPU | Process CPU Usage: 0.1% | System CPU Usage: 19.3%
+[2026-02-18 20:06:41.468] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:41.468] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:06:43.462] SAMPLE_START
+[2026-02-18 20:06:43.464] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:06:43.464] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:06:43.464] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:06:43.465] MEMPOOL | Metaspace                 Used:   1319KB | Max: -1MB
+[2026-02-18 20:06:43.465] MEMPOOL | CodeHeap 'profiled nmethods' Used:    659KB | Max: 117MB
+[2026-02-18 20:06:43.466] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:06:43.466] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:06:43.466] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:06:43.466] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:06:43.466] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:    129KB | Max: 117MB
+[2026-02-18 20:06:43.466] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:43.467] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:43.467] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:06:43.467] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:06:43.467] CPU | Available Processors: 12 | System Load Average: 2.04
+[2026-02-18 20:06:43.467] CPU | Process CPU Usage: 0.1% | System CPU Usage: 15.5%
+[2026-02-18 20:06:43.467] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:06:43.467] SAMPLE_END
+[2026-02-18 20:07:27.809] === PROFILER START | Sampling every 2s ===
+-----------------------------------------------------------
+-----------------------------------------------------------
+[2026-02-18 20:07:27.812] SAMPLE_START
+[2026-02-18 20:07:27.818] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:07:27.818] MEMORY | NonHeap Used: 2MB | Committed: 8MB
+[2026-02-18 20:07:27.818] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:07:27.818] MEMPOOL | Metaspace                 Used:   1248KB | Max: -1MB
+[2026-02-18 20:07:27.818] MEMPOOL | CodeHeap 'profiled nmethods' Used:    485KB | Max: 117MB
+[2026-02-18 20:07:27.818] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:07:27.819] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:07:27.819] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:07:27.819] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:07:27.819] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:     93KB | Max: 117MB
+[2026-02-18 20:07:27.819] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:27.819] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:27.819] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:27.820] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:07:27.820] CPU | Available Processors: 12 | System Load Average: 2.20
+[2026-02-18 20:07:27.820] CPU | Process CPU Usage: 0.0% | System CPU Usage: 0.0%
+[2026-02-18 20:07:27.821] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:07:27.821] SAMPLE_END
+-----------------------------------------------------------
+[2026-02-18 20:07:29.816] SAMPLE_START
+[2026-02-18 20:07:29.817] MEMORY | Heap Used: 3MB / 258MB (0.1%) | Committed: 258MB | Max: 4096MB
+[2026-02-18 20:07:29.818] MEMORY | NonHeap Used: 3MB | Committed: 8MB
+[2026-02-18 20:07:29.818] MEMPOOL | CodeHeap 'non-nmethods'   Used:   1283KB | Max: 5MB
+[2026-02-18 20:07:29.818] MEMPOOL | Metaspace                 Used:   1252KB | Max: -1MB
+[2026-02-18 20:07:29.819] MEMPOOL | CodeHeap 'profiled nmethods' Used:    497KB | Max: 117MB
+[2026-02-18 20:07:29.819] MEMPOOL | Compressed Class Space    Used:    132KB | Max: 1024MB
+[2026-02-18 20:07:29.819] MEMPOOL | G1 Eden Space             Used:   2048KB | Max: -1MB
+[2026-02-18 20:07:29.820] MEMPOOL | G1 Old Gen                Used:   1037KB | Max: 4096MB
+[2026-02-18 20:07:29.820] MEMPOOL | G1 Survivor Space         Used:      0KB | Max: -1MB
+[2026-02-18 20:07:29.820] MEMPOOL | CodeHeap 'non-profiled nmethods' Used:     99KB | Max: 117MB
+[2026-02-18 20:07:29.820] GC | MINOR_GC   | G1 Young Generation            | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:29.821] GC | MAJOR_GC   | G1 Concurrent GC               | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:29.821] GC | MAJOR_GC   | G1 Old Generation              | Total Collections: 0 | Total Time: 0ms | Delta Collections: 0 | Delta Time: 0ms
+[2026-02-18 20:07:29.821] THREADS | Active: 7 | Peak: 7 | Daemon: 5 | Total Started: 7
+[2026-02-18 20:07:29.822] CPU | Available Processors: 12 | System Load Average: 2.20
+[2026-02-18 20:07:29.822] CPU | Process CPU Usage: 0.0% | System CPU Usage: 9.5%
+[2026-02-18 20:07:29.822] CLASSES | Loaded: 1145 | Total Loaded: 1145 | Unloaded: 0
+[2026-02-18 20:07:29.822] SAMPLE_END

@@ -1,0 +1,158 @@
+[2026-02-18 20:06:53.796] [INFO] [Main] === Application START ===
+[2026-02-18 20:06:53.805] [INFO] [Main] JVM: 21.0.1 | Heap: 4096MB
+[2026-02-18 20:06:53.806] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:06:53.811] [INFO] [CacheModule] Cache HIT for key=session:user_002 [hits=1 misses=0]
+[2026-02-18 20:06:53.814] [INFO] [PaymentModule] START processPayment user=user_002 amount=12063.969928376575
+[2026-02-18 20:06:53.921] [ERROR] [PaymentModule] Null account data during payment processing | Exception: NullPointerException: Account balance result was null for user: user_002
+    STACKTRACE: java.lang.NullPointerException: Account balance result was null for user: user_002
+    	at TestApp$PaymentModule.processPayment(TestApp.java:92)
+    	at TestApp.main(TestApp.java:171)
+    
+[2026-02-18 20:06:53.922] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:06:55.365] [INFO] [Main] --- New request: user=user_999 ---
+[2026-02-18 20:06:55.366] [INFO] [CacheModule] Cache HIT for key=session:user_999 [hits=2 misses=0]
+[2026-02-18 20:06:55.366] [INFO] [PaymentModule] START processPayment user=user_999 amount=4924.533017495173
+[2026-02-18 20:06:55.479] [INFO] [DatabaseModule] Query OK (101ms) [query #2]: SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:06:55.482] [INFO] [PaymentModule] Payment authorized for user=user_999 amount=$4924.533017495173
+[2026-02-18 20:06:55.483] [INFO] [PaymentModule] END processPayment user=user_999
+[2026-02-18 20:06:56.540] [INFO] [Main] --- New request: user=user_999 ---
+[2026-02-18 20:06:56.542] [WARN] [CacheModule] Cache MISS for key=session:user_999 [hits=2 misses=1]
+[2026-02-18 20:06:56.543] [INFO] [PaymentModule] START processPayment user=user_999 amount=7866.33138614915
+[2026-02-18 20:06:57.002] [WARN] [DatabaseModule] Slow query detected (448ms): SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:06:57.003] [INFO] [DatabaseModule] Query OK (448ms) [query #3]: SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:06:57.003] [INFO] [PaymentModule] Payment authorized for user=user_999 amount=$7866.33138614915
+[2026-02-18 20:06:57.004] [INFO] [PaymentModule] END processPayment user=user_999
+[2026-02-18 20:06:57.810] [INFO] [Main] --- New request: user=user_404 ---
+[2026-02-18 20:06:57.811] [WARN] [CacheModule] Cache MISS for key=session:user_404 [hits=2 misses=2]
+[2026-02-18 20:06:57.811] [INFO] [PaymentModule] START processPayment user=user_404 amount=1316.6320550867322
+[2026-02-18 20:06:58.294] [WARN] [DatabaseModule] Slow query detected (477ms): SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:06:58.295] [INFO] [DatabaseModule] Query OK (477ms) [query #4]: SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:06:58.296] [INFO] [PaymentModule] Payment authorized for user=user_404 amount=$1316.6320550867322
+[2026-02-18 20:06:58.296] [INFO] [PaymentModule] END processPayment user=user_404
+[2026-02-18 20:06:59.300] [INFO] [Main] --- New request: user=user_001 ---
+[2026-02-18 20:06:59.301] [INFO] [CacheModule] Cache HIT for key=session:user_001 [hits=3 misses=2]
+[2026-02-18 20:06:59.301] [INFO] [PaymentModule] START processPayment user=user_001 amount=2572.404417921946
+[2026-02-18 20:06:59.471] [ERROR] [PaymentModule] Payment failed for user=user_001 | Exception: RuntimeException: Connection timeout to DB after 3 retries
+    STACKTRACE: java.lang.RuntimeException: Connection timeout to DB after 3 retries
+    	at TestApp$DatabaseModule.query(TestApp.java:66)
+    	at TestApp$PaymentModule.processPayment(TestApp.java:88)
+    	at TestApp.main(TestApp.java:171)
+    
+[2026-02-18 20:06:59.473] [INFO] [PaymentModule] END processPayment user=user_001
+[2026-02-18 20:07:00.346] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:07:00.347] [INFO] [CacheModule] Cache HIT for key=session:user_002 [hits=4 misses=2]
+[2026-02-18 20:07:00.348] [INFO] [PaymentModule] START processPayment user=user_002 amount=1982.9299549899608
+[2026-02-18 20:07:00.362] [INFO] [DatabaseModule] Query OK (11ms) [query #6]: SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:00.363] [INFO] [PaymentModule] Payment authorized for user=user_002 amount=$1982.9299549899608
+[2026-02-18 20:07:00.363] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:07:00.971] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:07:00.972] [INFO] [CacheModule] Cache HIT for key=session:user_002 [hits=5 misses=2]
+[2026-02-18 20:07:00.973] [INFO] [PaymentModule] START processPayment user=user_002 amount=2918.6931598978817
+[2026-02-18 20:07:01.442] [WARN] [DatabaseModule] Slow query detected (464ms): SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:01.443] [INFO] [DatabaseModule] Query OK (464ms) [query #7]: SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:01.444] [INFO] [PaymentModule] Payment authorized for user=user_002 amount=$2918.6931598978817
+[2026-02-18 20:07:01.445] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:07:02.055] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:07:02.056] [INFO] [CacheModule] Cache HIT for key=session:user_002 [hits=6 misses=2]
+[2026-02-18 20:07:02.056] [INFO] [PaymentModule] START processPayment user=user_002 amount=12351.429719633594
+[2026-02-18 20:07:02.531] [WARN] [DatabaseModule] Slow query detected (472ms): SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:02.532] [INFO] [DatabaseModule] Query OK (472ms) [query #8]: SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:02.535] [WARN] [PaymentModule] High-value transaction flagged for review: $12351.429719633594
+[2026-02-18 20:07:02.535] [INFO] [PaymentModule] Payment authorized for user=user_002 amount=$12351.429719633594
+[2026-02-18 20:07:02.535] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:07:03.921] [INFO] [Main] --- New request: user=user_404 ---
+[2026-02-18 20:07:03.922] [WARN] [CacheModule] Cache MISS for key=session:user_404 [hits=6 misses=3]
+[2026-02-18 20:07:03.923] [INFO] [PaymentModule] START processPayment user=user_404 amount=11929.21286303115
+[2026-02-18 20:07:04.153] [INFO] [DatabaseModule] Query OK (229ms) [query #9]: SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:07:04.154] [WARN] [PaymentModule] High-value transaction flagged for review: $11929.21286303115
+[2026-02-18 20:07:04.154] [INFO] [PaymentModule] Payment authorized for user=user_404 amount=$11929.21286303115
+[2026-02-18 20:07:04.154] [INFO] [PaymentModule] END processPayment user=user_404
+[2026-02-18 20:07:05.431] [INFO] [Main] --- New request: user=user_404 ---
+[2026-02-18 20:07:05.432] [WARN] [CacheModule] Cache MISS for key=session:user_404 [hits=6 misses=4]
+[2026-02-18 20:07:05.433] [INFO] [PaymentModule] START processPayment user=user_404 amount=13516.338552382882
+[2026-02-18 20:07:05.678] [ERROR] [PaymentModule] Null account data during payment processing | Exception: NullPointerException: Account balance result was null for user: user_404
+    STACKTRACE: java.lang.NullPointerException: Account balance result was null for user: user_404
+    	at TestApp$PaymentModule.processPayment(TestApp.java:92)
+    	at TestApp.main(TestApp.java:171)
+    
+[2026-02-18 20:07:05.679] [INFO] [PaymentModule] END processPayment user=user_404
+[2026-02-18 20:07:06.352] [INFO] [Main] --- New request: user=user_999 ---
+[2026-02-18 20:07:06.353] [WARN] [CacheModule] Cache MISS for key=session:user_999 [hits=6 misses=5]
+[2026-02-18 20:07:06.354] [INFO] [PaymentModule] START processPayment user=user_999 amount=8494.273607245317
+[2026-02-18 20:07:06.761] [WARN] [DatabaseModule] Slow query detected (404ms): SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:07:06.762] [INFO] [DatabaseModule] Query OK (404ms) [query #11]: SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:07:06.762] [INFO] [PaymentModule] Payment authorized for user=user_999 amount=$8494.273607245317
+[2026-02-18 20:07:06.762] [INFO] [PaymentModule] END processPayment user=user_999
+[2026-02-18 20:07:08.090] [INFO] [Main] --- New request: user=user_001 ---
+[2026-02-18 20:07:08.091] [INFO] [CacheModule] Cache HIT for key=session:user_001 [hits=7 misses=5]
+[2026-02-18 20:07:08.092] [INFO] [PaymentModule] START processPayment user=user_001 amount=5777.67027995878
+[2026-02-18 20:07:08.332] [INFO] [DatabaseModule] Query OK (235ms) [query #12]: SELECT balance FROM accounts WHERE user='user_001'
+[2026-02-18 20:07:08.333] [INFO] [PaymentModule] Payment authorized for user=user_001 amount=$5777.67027995878
+[2026-02-18 20:07:08.333] [INFO] [PaymentModule] END processPayment user=user_001
+[2026-02-18 20:07:08.941] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:07:08.942] [WARN] [CacheModule] Cache MISS for key=session:user_002 [hits=7 misses=6]
+[2026-02-18 20:07:08.942] [INFO] [PaymentModule] START processPayment user=user_002 amount=11470.153171343425
+[2026-02-18 20:07:08.964] [INFO] [DatabaseModule] Query OK (20ms) [query #13]: SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:08.965] [WARN] [PaymentModule] High-value transaction flagged for review: $11470.153171343425
+[2026-02-18 20:07:08.965] [INFO] [PaymentModule] Payment authorized for user=user_002 amount=$11470.153171343425
+[2026-02-18 20:07:08.966] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:07:10.101] [INFO] [Main] --- New request: user=user_999 ---
+[2026-02-18 20:07:10.102] [INFO] [CacheModule] Cache HIT for key=session:user_999 [hits=8 misses=6]
+[2026-02-18 20:07:10.102] [INFO] [PaymentModule] START processPayment user=user_999 amount=13971.403149135198
+[2026-02-18 20:07:10.231] [INFO] [DatabaseModule] Query OK (127ms) [query #14]: SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:07:10.232] [WARN] [PaymentModule] High-value transaction flagged for review: $13971.403149135198
+[2026-02-18 20:07:10.232] [INFO] [PaymentModule] Payment authorized for user=user_999 amount=$13971.403149135198
+[2026-02-18 20:07:10.232] [INFO] [PaymentModule] END processPayment user=user_999
+[2026-02-18 20:07:11.364] [INFO] [Main] --- New request: user=user_003 ---
+[2026-02-18 20:07:11.365] [INFO] [CacheModule] Cache HIT for key=session:user_003 [hits=9 misses=6]
+[2026-02-18 20:07:11.365] [INFO] [PaymentModule] START processPayment user=user_003 amount=3670.573645139759
+[2026-02-18 20:07:11.584] [INFO] [DatabaseModule] Query OK (218ms) [query #15]: SELECT balance FROM accounts WHERE user='user_003'
+[2026-02-18 20:07:11.585] [INFO] [PaymentModule] Payment authorized for user=user_003 amount=$3670.573645139759
+[2026-02-18 20:07:11.585] [INFO] [PaymentModule] END processPayment user=user_003
+[2026-02-18 20:07:20.016] [INFO] [Main] === Application START ===
+[2026-02-18 20:07:20.025] [INFO] [Main] JVM: 21.0.1 | Heap: 4096MB
+[2026-02-18 20:07:20.027] [INFO] [Main] --- New request: user=user_003 ---
+[2026-02-18 20:07:20.032] [WARN] [CacheModule] Cache MISS for key=session:user_003 [hits=0 misses=1]
+[2026-02-18 20:07:20.035] [INFO] [PaymentModule] START processPayment user=user_003 amount=6787.92146853778
+[2026-02-18 20:07:20.288] [ERROR] [PaymentModule] Null account data during payment processing | Exception: NullPointerException: Account balance result was null for user: user_003
+    STACKTRACE: java.lang.NullPointerException: Account balance result was null for user: user_003
+    	at TestApp$PaymentModule.processPayment(TestApp.java:92)
+    	at TestApp.main(TestApp.java:171)
+    
+[2026-02-18 20:07:20.290] [INFO] [PaymentModule] END processPayment user=user_003
+[2026-02-18 20:07:21.050] [INFO] [Main] --- New request: user=user_999 ---
+[2026-02-18 20:07:21.051] [INFO] [CacheModule] Cache HIT for key=session:user_999 [hits=1 misses=1]
+[2026-02-18 20:07:21.051] [INFO] [PaymentModule] START processPayment user=user_999 amount=14189.327987330906
+[2026-02-18 20:07:21.069] [INFO] [DatabaseModule] Query OK (8ms) [query #2]: SELECT balance FROM accounts WHERE user='user_999'
+[2026-02-18 20:07:21.072] [WARN] [PaymentModule] High-value transaction flagged for review: $14189.327987330906
+[2026-02-18 20:07:21.072] [INFO] [PaymentModule] Payment authorized for user=user_999 amount=$14189.327987330906
+[2026-02-18 20:07:21.073] [INFO] [PaymentModule] END processPayment user=user_999
+[2026-02-18 20:07:22.418] [INFO] [Main] --- New request: user=user_404 ---
+[2026-02-18 20:07:22.420] [WARN] [CacheModule] Cache MISS for key=session:user_404 [hits=1 misses=2]
+[2026-02-18 20:07:22.421] [INFO] [PaymentModule] START processPayment user=user_404 amount=5331.181681340908
+[2026-02-18 20:07:22.545] [INFO] [DatabaseModule] Query OK (123ms) [query #3]: SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:07:22.546] [INFO] [PaymentModule] Payment authorized for user=user_404 amount=$5331.181681340908
+[2026-02-18 20:07:22.546] [INFO] [PaymentModule] END processPayment user=user_404
+[2026-02-18 20:07:23.968] [INFO] [Main] --- New request: user=user_404 ---
+[2026-02-18 20:07:23.969] [INFO] [CacheModule] Cache HIT for key=session:user_404 [hits=2 misses=2]
+[2026-02-18 20:07:23.970] [INFO] [PaymentModule] START processPayment user=user_404 amount=11108.3374876792
+[2026-02-18 20:07:24.452] [WARN] [DatabaseModule] Slow query detected (468ms): SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:07:24.453] [INFO] [DatabaseModule] Query OK (468ms) [query #4]: SELECT balance FROM accounts WHERE user='user_404'
+[2026-02-18 20:07:24.453] [WARN] [PaymentModule] High-value transaction flagged for review: $11108.3374876792
+[2026-02-18 20:07:24.453] [INFO] [PaymentModule] Payment authorized for user=user_404 amount=$11108.3374876792
+[2026-02-18 20:07:24.453] [INFO] [PaymentModule] END processPayment user=user_404
+[2026-02-18 20:07:25.435] [INFO] [Main] --- New request: user=user_002 ---
+[2026-02-18 20:07:25.436] [WARN] [CacheModule] Cache MISS for key=session:user_002 [hits=2 misses=3]
+[2026-02-18 20:07:25.437] [INFO] [PaymentModule] START processPayment user=user_002 amount=10796.381212496877
+[2026-02-18 20:07:25.840] [WARN] [DatabaseModule] Slow query detected (400ms): SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:25.841] [INFO] [DatabaseModule] Query OK (400ms) [query #5]: SELECT balance FROM accounts WHERE user='user_002'
+[2026-02-18 20:07:25.841] [WARN] [PaymentModule] High-value transaction flagged for review: $10796.381212496877
+[2026-02-18 20:07:25.841] [INFO] [PaymentModule] Payment authorized for user=user_002 amount=$10796.381212496877
+[2026-02-18 20:07:25.842] [INFO] [PaymentModule] END processPayment user=user_002
+[2026-02-18 20:07:26.639] [INFO] [Main] --- New request: user=user_003 ---
+[2026-02-18 20:07:26.641] [WARN] [CacheModule] Cache MISS for key=session:user_003 [hits=2 misses=4]
+[2026-02-18 20:07:26.641] [INFO] [PaymentModule] START processPayment user=user_003 amount=2962.5122516059414
+[2026-02-18 20:07:26.945] [WARN] [DatabaseModule] Slow query detected (302ms): SELECT balance FROM accounts WHERE user='user_003'
+[2026-02-18 20:07:26.946] [INFO] [DatabaseModule] Query OK (302ms) [query #6]: SELECT balance FROM accounts WHERE user='user_003'
+[2026-02-18 20:07:26.946] [INFO] [PaymentModule] Payment authorized for user=user_003 amount=$2962.5122516059414
+[2026-02-18 20:07:26.947] [INFO] [PaymentModule] END processPayment user=user_003
